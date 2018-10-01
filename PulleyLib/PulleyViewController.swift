@@ -1123,7 +1123,7 @@ open class PulleyViewController: UIViewController, PulleyDrawerViewControllerDel
      - parameter isAnimated: Whether or not to animate the change. Default: true
      */
     @available(*, deprecated)
-    public func setDrawerPosition(position: PulleyPosition, isAnimated: Bool = true)
+    open func setDrawerPosition(position: PulleyPosition, isAnimated: Bool = true)
     {
         setDrawerPosition(position: position, animated: isAnimated)
     }
